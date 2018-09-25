@@ -191,7 +191,7 @@ class JMX(object):
             "bytes": True,
             "hostname": True,
             "threadCounts": True,
-            "url": False
+            "url": True
         }
 
         return JMX.__jtl_writer(filename, "KPI Writer", flags)
