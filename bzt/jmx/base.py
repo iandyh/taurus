@@ -174,7 +174,7 @@ class JMX(object):
             "latency": True,
             "connectTime": True,
             "success": True,
-            "label": False,
+            "label": True,
             "code": True,
             "message": True,
             "threadName": False,
