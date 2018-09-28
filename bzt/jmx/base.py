@@ -177,7 +177,7 @@ class JMX(object):
             "label": True,
             "code": True,
             "message": True,
-            "threadName": False,
+            "threadName": True,
             "dataType": False,
             "encoding": False,
             "assertions": False,
